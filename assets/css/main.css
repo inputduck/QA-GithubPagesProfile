@@ -1,0 +1,29 @@
+
+.wrapper {
+	display: flex;
+	
+	justify-content: center;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	margin:20px;
+	padding:15px;
+	box-sizing: border-box;
+	background-color: gold;
+	border: black 6px solid;
+	border-radius: 25px;
+
+}
+
+
+h1 {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
