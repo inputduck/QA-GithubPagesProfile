@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/main.css">
 	<title>Document</title>
 </head>
@@ -12,9 +14,6 @@
 
 				
 		<header id="header">
-			<div class="logo">
-				<span class="icon fa-diamond"></span>
-			</div>
 			<div class="content">
 				<div class="inner">
 					<h1>Hi, I'm Anton</h1>
@@ -26,7 +25,6 @@
 					<li><a href="#work">Work</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#contact">Contact</a></li>
-					
 				</ul>
 			</nav>
 		</header>
@@ -36,8 +34,7 @@
 
 			
 				<article id="intro">
-					<h1 class="major">My Name Is Anton</h1>
-					<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+					<h2>My Name Is Anton</h2>
 					<h2>I am an Apprentice Software Developer.</h2>
 					<p> In the last 4 months I have worked with lots of new tools and systems and built up my knowledge around Templating(Nunjucks and Razor), SQL, React, Typescript, SCSS, JSX and C#. In addition to this I have learned a lot about the process side of things. I use Azure DevOps on a daily basis, work with Git version control and have been involved in projects that use Agile methodologies. There is still so much to learn, but I am loving it. Every day is exciting and fun and I love learning as much as I can.</p>
 				</article>
@@ -64,7 +61,6 @@
 			
 				<article id="about">
 					<h2 class="major">About</h2>
-					<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
 					<h3>Likes</h3>
 					<ol>
 						<li>Heavy Metal</li>
@@ -80,36 +76,41 @@
 					</ol>
 
 					<h3>Fun Fact</h3>
-					<p>When I was 8 I won a karaoke competition in Bridlington</p>
+					<p>When I was 8 I won a karaoke competition in Bridlington.</p>
 
 				</article>
 
 			
 				<article id="contact">
+					<div id="contact-form">
 					<h2 class="major">Contact</h2>
 					<form method="post" action="#">
-						<div class="field half first">
+						<div class="field">
+							
 							<label for="name">Name</label>
 							<input type="text" name="name" id="name" />
 						</div>
-						<div class="field half">
+						<div class="field">
+							
 							<label for="email">Email</label>
 							<input type="text" name="email" id="email" />
 						</div>
 						<div class="field">
+							
 							<label for="message">Message</label>
 							<textarea name="message" id="message" rows="4"></textarea>
 						</div>
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" class="special" /></li>
-							<li><input type="reset" value="Reset" /></li>
-						</ul>
+						<div id="form-buttons">
+							<input type="submit" value="Send Message" class="special" />
+							<input type="reset" value="Reset" class="special" />
+						</div>
 					</form>
+				</div>
 					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https:/www.twitter.com">Twitter</a></li>
+						<li><a href="https://www.linkedin.com/in/antonmwatson/">LinkedIn</a></li>
+						<li><a href="https://www.instagram.com">Instagram</a></li>
+						<li><a href="https://www.github.com/inputduck">GitHub</a></li>
 					</ul>
 				</article>
 
